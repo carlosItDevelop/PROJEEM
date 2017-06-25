@@ -1,0 +1,9 @@
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Controller\bin\Debug\Controller.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Controller\bin\Debug\Controller.pdb
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Controller\obj\Debug\Controller.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Controller\obj\Debug\Controller.pdb
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\Desenv\Projeem\Projeem_Rolt\Controller\bin\Debug\Controller.dll
+D:\Desenv\Projeem\Projeem_Rolt\Controller\bin\Debug\Controller.pdb
+D:\Desenv\Projeem\Projeem_Rolt\Controller\obj\Debug\Controller.dll
+D:\Desenv\Projeem\Projeem_Rolt\Controller\obj\Debug\Controller.pdb

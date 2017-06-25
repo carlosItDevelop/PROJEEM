@@ -1,0 +1,14 @@
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\bin\Debug\Model.dll
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\bin\Debug\Model.pdb
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\bin\Debug\CSharpUtil.dll
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\bin\Debug\CSharpUtil.pdb
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\obj\Debug\Model.dll
+D:\poeta\Dados_320Gb\Desenv\Projeem_III\Model\obj\Debug\Model.pdb
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\bin\Debug\Model.dll
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\bin\Debug\Model.pdb
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\bin\Debug\CSharpUtil.dll
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\bin\Debug\CSharpUtil.pdb
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\obj\Debug\Model.dll
+D:\poeta\Dados_320Gb\Desenv\Projeem_II\Model\obj\Debug\Model.pdb

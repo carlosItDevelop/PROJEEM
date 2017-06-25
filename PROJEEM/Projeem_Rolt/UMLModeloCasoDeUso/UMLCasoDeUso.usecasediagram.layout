@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLCasoDeUso">
+  <useCaseModelRootMoniker Id="e4c5881e-0e9c-47e0-b78b-457b7fcea42c" />
+  <nestedChildShapes>
+    <actorShape Id="8e0b6a45-b74e-41a2-ad80-30330a50ff76" absoluteBounds="0.5, 0.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="3128ddeb-1f53-436f-998c-bf0e5fdbe81c" LastKnownName="Jogador" />
+      <relativeChildShapes />
+    </actorShape>
+  </nestedChildShapes>
+</useCaseDiagram>

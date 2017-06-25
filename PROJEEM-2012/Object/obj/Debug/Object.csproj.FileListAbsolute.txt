@@ -1,0 +1,13 @@
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\bin\Debug\Object.dll
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\bin\Debug\Object.pdb
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\bin\Debug\CSharpUtil.dll
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\bin\Debug\CSharpUtil.pdb
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\obj\Debug\ResolveAssemblyReference.cache
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\obj\Debug\Object.dll
+D:\poeta\Dados_320Gb\Desenv\PROJEEM-2012\Object\obj\Debug\Object.pdb
+D:\Desenv\Projeem\PROJEEM-2012\Object\bin\Debug\Object.dll
+D:\Desenv\Projeem\PROJEEM-2012\Object\bin\Debug\Object.pdb
+D:\Desenv\Projeem\PROJEEM-2012\Object\bin\Debug\CSharpUtil.pdb
+D:\Desenv\Projeem\PROJEEM-2012\Object\obj\Debug\Object.csprojResolveAssemblyReference.cache
+D:\Desenv\Projeem\PROJEEM-2012\Object\obj\Debug\Object.dll
+D:\Desenv\Projeem\PROJEEM-2012\Object\obj\Debug\Object.pdb

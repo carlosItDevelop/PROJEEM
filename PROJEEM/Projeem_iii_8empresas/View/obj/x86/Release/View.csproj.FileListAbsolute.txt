@@ -1,0 +1,6 @@
+C:\Users\coope\Desktop\newprojeem_iii_8empresas\View\obj\x86\Release\View.csprojResolveAssemblyReference.cache
+C:\Users\coope\Desktop\newprojeem_iii_8empresas\View\obj\x86\Release\Projeem.View.frmAplicaDebitoECredito.resources
+C:\Users\coope\Desktop\newprojeem_iii_8empresas\View\obj\x86\Release\View.frmConsolidado.resources
+C:\Users\coope\Desktop\newprojeem_iii_8empresas\View\obj\x86\Release\Projeem.View.frmMDIForm.resources
+C:\Users\coope\Desktop\newprojeem_iii_8empresas\View\obj\x86\Release\View.Properties.Resources.resources
+C:\Users\coope\Desktop\newprojeem_iii_8empresas\View\obj\x86\Release\View.csproj.GenerateResource.Cache

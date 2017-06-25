@@ -1,0 +1,14 @@
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\bin\Debug\DataBase.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\bin\Debug\DataBase.pdb
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\bin\Debug\Controller.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\bin\Debug\Controller.pdb
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\obj\Debug\DataBase.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\DataBase\obj\Debug\DataBase.pdb
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\bin\Debug\DataBase.dll
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\bin\Debug\DataBase.pdb
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\bin\Debug\Controller.dll
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\bin\Debug\Controller.pdb
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\obj\Debug\DataBase.dll
+D:\Desenv\Projeem\Projeem_Rolt\DataBase\obj\Debug\DataBase.pdb

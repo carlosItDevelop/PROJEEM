@@ -1,0 +1,14 @@
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\bin\Debug\Models.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\bin\Debug\Models.pdb
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\bin\Debug\Controller.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\bin\Debug\Controller.pdb
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\obj\Debug\Models.dll
+D:\Desenv\solucoes_revisadas\2013\Projeem_Rolt\Models\obj\Debug\Models.pdb
+D:\Desenv\Projeem\Projeem_Rolt\Models\bin\Debug\Models.dll
+D:\Desenv\Projeem\Projeem_Rolt\Models\bin\Debug\Models.pdb
+D:\Desenv\Projeem\Projeem_Rolt\Models\bin\Debug\Controller.dll
+D:\Desenv\Projeem\Projeem_Rolt\Models\bin\Debug\Controller.pdb
+D:\Desenv\Projeem\Projeem_Rolt\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\Desenv\Projeem\Projeem_Rolt\Models\obj\Debug\Models.dll
+D:\Desenv\Projeem\Projeem_Rolt\Models\obj\Debug\Models.pdb

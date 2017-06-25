@@ -1,0 +1,114 @@
+﻿        private void btnProcessEstatis_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = null;
+            SqlConnection cn = new SqlConnection();
+            cn.ConnectionString = "Data Source=COOPERCHIP-PC;Initial Catalog=" + "PROJEEM-2012" + ";Integrated Security=True;";
+            cn.Open();
+
+            string[] codigo = new string[19] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S" };
+            string[] EMPRESA = new string[8] { "1", "2", "3", "4", "5", "6", "7", "8"};
+
+            for (int k = 0; k < 19; k++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                      cmd = new SqlCommand("INSERT INTO SERIES_DETALHES (codigo, " +
+                                                                        "EMPRESA, " +
+                                                                        "pr_aplicacao, " +
+                                                                        "qtde_premio, " +
+                                                                        "status, carencia, " +
+                                                                        "ultima_carencia, " +
+                                                                        "maior_carencia, " +
+                                                                        "wait_carencia, " +
+                                                                        "media_carencia) values ('" +
+                                                                        codigo[k] + "', " +
+                                                                        EMPRESA[j] + ", " +
+                                                                        1 + ", " +
+                                                                        0 + ", '" +
+                                                                        "OUT" + "', " +
+                                                                        0 + ", " +
+                                                                        0 + ", " +
+                                                                        0 + ", " +
+                                                                        0 + ", " +
+                                                                        0 + ")", cn);
+                    cmd.ExecuteNonQuery();
+                }
+                CSharpUtil.Util.Msg("CÓDIGO: " + codigo[k] + " Incluído!");
+            }
+            cn.Dispose();
+            cn.Close();
+        }
+
+
+
+
+
+        private void btnProcessEstatis_Click(object sender, EventArgs e)
+        {
+            int curReg = 0;
+            int numReg = 0;
+
+            SqlConnection cn = new SqlConnection();
+            cn.ConnectionString = "Data Source=COOPERCHIP-PC;Initial Catalog=" + "PROJEEM-2012" + ";Integrated Security=True;";
+            cn.Open();
+
+            SqlDataAdapter da = new SqlDataAdapter("select data, periodo, resultado from resultados where premio = "+1+" order by data", cn);
+
+            DataSet ds = new DataSet();
+            da.Fill(ds, "rst");
+            DataTable dt = new DataTable();
+            dt = ds.Tables["rst"];
+            numReg = dt.Rows.Count;
+
+            while (curReg < numReg) {
+                InsereOitavoPremio(dt.Rows[curReg]["data"].ToString(),
+                                   dt.Rows[curReg]["periodo"].ToString(),
+                                   8,
+                                   dt.Rows[curReg]["resultado"].ToString(), cn);
+                curReg++;
+            }
+            cn.Dispose();
+            cn.Close();
+            CSharpUtil.Util.Msg("Registro dos 8ºs Prêmios Gravados com Sucesso!");
+
+        }
+
+
+        private void InsereOitavoPremio(string data, string periodo, int empresa, string resultado, SqlConnection cn) {
+
+            int vSalteado = 0;
+            string vAuxSalteado;
+            if (int.Parse(resultado) == 0) resultado = "100";
+            string dez = resultado.Substring((resultado.Length-2),2);
+            int aux = int.Parse(dez) * 4;
+
+            if (aux == 0)
+            {
+                vSalteado = 25;
+            }
+            else if (aux < 10) {
+                vAuxSalteado = "0"+aux.ToString();
+                vAuxSalteado = vAuxSalteado.Substring((vAuxSalteado.Length - 2), 2);
+                vSalteado = int.Parse(vAuxSalteado) / 4;
+            }
+            else
+            {
+                vAuxSalteado = aux.ToString();
+                vAuxSalteado = vAuxSalteado.Substring((vAuxSalteado.Length - 2), 2);
+                vSalteado = int.Parse(vAuxSalteado) / 4;
+            }
+            
+
+            try
+            {
+                string vSql = "INSERT INTO resultados (data, periodo, premio, resultado, grupo) " +
+                                          "values ('" +data + "', '" + periodo.Trim() + "', " + empresa + ", " + int.Parse(resultado) + ", " + vSalteado + ")";
+                SqlCommand cmd = new SqlCommand(vSql, cn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                CSharpUtil.Util.MsgErro(ex.Message);
+            }
+
+        }
